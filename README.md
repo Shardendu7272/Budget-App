@@ -1,19 +1,18 @@
-```markdown
 # Budget App
 
-A simple budget tracking application built with HTML, CSS, and JavaScript.
+A simple and responsive budget tracking application built with HTML, CSS, and JavaScript.
 
 ## Description
 
-This project allows users to input their budget, track expenses, and view their remaining balance. It provides a basic interface for managing personal finances.
+This application helps users manage their personal finances by allowing them to input a budget, add expenses, and track their remaining balance. It offers a clean and interactive interface for quick and easy financial planning.
 
 ## Features
 
-*   **Budget Input:** Allows users to enter their total budget amount.
-*   **Expense Tracking:** Enables users to add and track their expenses.
-*   **Balance Calculation:** Automatically calculates and displays the remaining balance.
-*   **Responsive Design:** The layout adapts to different screen sizes for usability on various devices.
-*   **Error Handling:** Provides error messages for invalid inputs.
+*   **Budget Input:** Enter your total available budget.
+*   **Expense Tracking:** Add individual expenses with name and amount.
+*   **Balance Calculation:** Automatically updates remaining balance.
+*   **Responsive Design:** Optimized for both desktop and mobile devices.
+*   **Error Handling:** Validates inputs and displays helpful error messages.
 
 ## Technologies Used
 
@@ -28,19 +27,20 @@ This project allows users to input their budget, track expenses, and view their 
 
 ## How to Use
 
-1.  Enter your budget amount in the "Your Budget" section and click "Calculate".
-2.  Add your expenses in the "Expenses Details" section by entering the expense name, amount, and clicking "Add Expenses".
-3.  The remaining balance will be automatically calculated and displayed.
+1.  Enter your total budget in the **"Your Budget"** section and click **Calculate**.
+2.  Fill in the expense name and amount in the **"Expenses Details"** section.
+3.  Click **Add Expenses** to save the entry.
+4.  The app will automatically display your remaining balance.
 
 ## Customization
 
-*   **CSS:** Modify the `style.css` file to customize the appearance. Key CSS variables are defined for easy theme adjustments.
-*   **JavaScript:** The `script.js` file handles the logic for budget calculation and expense tracking. Modify this file to add more features or change existing functionality.
+*   **CSS:** Update `style.css` to change layout, fonts, colors, and themes. The file includes predefined CSS variables for easy styling.
+*   **JavaScript:** Modify `script.js` to extend functionality (e.g., local storage, delete/edit expense entries, etc.).
 
 ## CSS Styling
 
 The `style.css` file includes:
 
-*   Custom CSS variables for colors (primary, light, dark, danger, warning, success).
-*   Styling for the overall layout, including the container, cards, and table.
-*   Responsive design using media queries.
+*   Custom CSS variables for themes: primary, success, warning, danger, etc.
+*   Styles for the container layout, input fields, and summary cards.
+*   Responsive design using media queries for different screen sizes.
